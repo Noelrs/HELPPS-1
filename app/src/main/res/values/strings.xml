@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Helpps</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo Electronico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in" translatable="false">ENTRAR</string>
+    <string name="action_sign_in_short">PsicologoOnline</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_principal">PsicologoOnline</string>
+
+
+    <!-- Botones de la APP -->
+
+    <!-- Pantalla Inicio -->
+    <string name="inicio_sesion">INICIAR SESIÓN</string>
+    <string name="crear_cuenta">CREAR UNA CUENTA</string>
+
+    <!-- Pantalla Registro -->
+    <string name="registro1_name">Registro</string>
+    <string name="registro">REGISTRARME</string>
+
+    <!-- Pantalla Login -->
+    <string name="login_name">Iniciar Sesión</string>
+    <string name="emaillog">Correo Electronico</string>
+    <string name="passwordlog">Contraseña</string>
+    <string name="entrarlog">Iniciar Sesión</string>
+    <string name="textlog">Inicio de Sesión</string>
+
+    <!-- Pantalla Lista de psicologos -->
+    <string name="tiuloList">Psicólogos y Terapeutas</string>
+    <string name="tiuloListserv">Servicios en HELPPS</string>
+
+
+
+    <!-- Pantalla detalle_psicologo -->
+    <string name="detalle_name">Detalle</string>
+    <string name="tonline">TERAPIA ONLINE</string>
+    <string name="tpresencial">TERAPIA PRESENCIAL</string>
+    <string name="agendarCita" translatable="false">AGENDAR CITA</string>
+    <string name="ubicarConsultorio">CONSULTORIO</string>
+    <string name="headerDetalle">Descripción del Psicólogo</string>
+    <string name="nombreDetalle">Nombre:</string>
+    <string name="especialidad">Especialidad:</string>
+    <string name="cedula">Cedula:</string>
+    <string name="presentacion">Presentación:</string>
+
+    <!-- Botones de la APP -->
+
+    <!-- Textos de OutPutText y hint -->
+
+    <!-- Pantalla Registro-->
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="telefono">Numero de este telefono</string>
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña (Min 4 - Max 8)</string>
+
+    <!-- Pantalla content_principal-->
+    <string name="saludo">Bienvenido</string>
+
+    <!-- Pantalla content_principal-->
+
+
+    <!-- Textos de OutPutText y hint -->
+
+    <!-- Opciones de Menu -->
+    <string name="action_settings">Settings</string>
+    <!-- Opciones de Menu Lateral-->
+    <string name="hello_world">Hello world!</string>
+    <string name="seccion_1">Psicólogos</string>
+    <string name="seccion_2">Servicios</string>
+    <string name="seccion_3">Formas de pago</string>
+    <string name="otras_opciones">Otras opciones</string>
+    <string name="opcion_1">Quienes somos</string>
+    <string name="opcion_2">Ayuda</string>
+    <string name="usuario">Usuario Logueado</string>
+    <string name="headerEmail">correo@mail.com</string>
+    <string name="menu_abierto">Menu Abierto</string>
+    <string name="menu_cerrado">Menu Cerrado</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+    <string name="closeSesion">Cerrar Sesión</string>
+    <string name="configuracion_item">Cerrar Sesión</string>
+
+
+    <!-- Pantalla Agendar Cita-->
+    <string name="cita_name">Citas</string>
+    <string name="textoTipo">Tipo de Consultas</string>
+    <string-array name="TipoCita">
+        <item>Presencial</item>
+        <item>OnLine</item>
+    </string-array>
+
+    <!-- Strings para parrafos de la APP    -->
+    <string name="principal_parrafo">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;color:gray;background-color:black;">
+        <div>
+           <div>
+              <div>
+                 <p>
+                 Psicólogo Online es una aplicación pensada para que los usuarios tengan accesos a atención
+                 profesional a través de la Terapia Online.
+                 </p>
+                 <p>
+                 Te ofrecemos una lista de Psicólogos profesionales y con experiencia en Psicoterapia,
+                 nuestros psicólogos son evaluados por nuestra área de reclutamiento antes de empezar a
+                 ofrecer sus servicios desde nuestra aplicación, por lo que tenemos la certeza de ofrecerle
+                 una terapia de calidad y lo más importante que le brinde resultados satisfactorios con respecto a su problema.
+                 </p>
+                 <p>
+                 Sabemos que no todos los casos pueden tratarse de manera Online, así que en la primera consulta el
+                 psicólogo realizara el diagnostico apropiado y determinara si su caso puede o no ser tratado por este medio.
+                 </p>
+                 <p>
+                 En caso de que el psicólogo indique que su caso debe ser tratado de manera presencial, puede agendar
+                 su cita desde esta app y presentarse al consultorio del psicólogo seleccionado. La dirección de los
+                 consultorios las encuentra en el detalle de cada psicólogo.
+                 </p>
+                 <p>
+                 El costo por terapia Online es de $300.00 Mx, para las terapias presenciales en los consultorios de los psicólogos
+                 el precio varia en base a la experiencia y especialidad de cada psicólogo, el costo de las terapias precenciales lo
+                 puede consultar en el detalle de cada psicólogo, cualquiera de los 2 casos los paga con tarjeta de crédito o
+                 débito, solo registrando su tarjeta en nuestra sección de pago.
+                 </p>
+                 <p>
+                 Los cargos a su tarjeta de crédito / debito, son efectuados al término de cada sesión Online o presencial.
+                 </p>
+                 <p>
+                 <i>Nota: Si el pago es realizado directamente al Psicólogo, Psicólogo Online no se responsabiliza de la atención prestada en el servicio.</i>
+                 </p>
+              </div>
+           </div>
+        </div>
+        </body>
+        </html>
+        ]]>
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

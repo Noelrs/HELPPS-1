@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FDFEFE</color>
+    <color name="colorPrimary">#F39C12</color>
+    <color name="colorPrimaryDark">#626567</color>
+    <color name="colorAccent">#d1fa9c</color>
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_psicologos"
+            android:checked="true"
+            android:icon="@drawable/ic_search"
+            android:title="@string/seccion_1"/>
+        <item
+            android:id="@+id/menu_servicios"
+            android:icon="@drawable/ic_store"
+            android:title="@string/seccion_2"/>
+        <item
+            android:id="@+id/menu_pago"
+            android:icon="@drawable/ic_file_document"
+            android:title="@string/seccion_3"/>
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/configuracion_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/closeSesion" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

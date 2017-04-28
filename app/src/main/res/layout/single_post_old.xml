@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/post_border_style"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/box_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/post_border_background"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/single_post_circuito_linearbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3">
+
+                    <com.github.snowdream.android.widget.SmartImageView
+                        android:id="@+id/fotoPs"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/ic_launcher"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/single_post_tv_nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Nombre"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#040404" />
+
+                    <TextView
+                        android:id="@+id/single_post_tv_especialidad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/single_post_tv_nombre"
+                        android:layout_centerHorizontal="true"
+                        android:text="Especialidad"
+                        android:textColor="@color/abc_secondary_text_material_light" />
+
+                    <TextView
+                        android:id="@+id/single_post_tv_cedula"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/single_post_tv_especialidad"
+                        android:layout_centerHorizontal="true"
+                        android:text="Cedula"
+                        android:textColor="@color/abc_secondary_text_material_light" />
+
+                    <TextView
+                        android:id="@+id/single_post_tv_lugar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/single_post_tv_cedula"
+                        android:layout_centerHorizontal="true"
+                        android:text="Lugar"
+                        android:textColor="@color/abc_secondary_text_material_light" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="id"
+                        android:id="@+id/single_post_tv_id"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.28"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/single_post_tv_sesion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textStyle="bold|italic"
+                        android:textColor="@color/abc_secondary_text_material_light" />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
